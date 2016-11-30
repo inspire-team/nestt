@@ -274,10 +274,22 @@ function onepage_sections() {
 
     $sections = array();
 
-    $sections['service_section'] = array(
-        'id' => 'service_section',
-        'label' => __('Service Section', 'one-page'),
-        'callback' => 'onepage_service_section',
+    $sections['philosophy_section'] = array(
+        'id' => 'philosophy_section',
+        'label' => __('Philosophy Section', 'one-page'),
+        'callback' => 'onepage_philosophy_section',
+    );
+
+    $sections['methodology_section'] = array(
+        'id' => 'methodology_section',
+        'label' => __('Methodology Section', 'one-page'),
+        'callback' => 'onepage_methodology_section',
+    );
+
+    $sections['space_section'] = array(
+        'id' => 'space_section',
+        'label' => __('Spae Section', 'one-page'),
+        'callback' => 'onepage_space_section',
     );
 
     $sections['blog_section'] = array(
@@ -286,42 +298,23 @@ function onepage_sections() {
         'callback' => 'onepage_blog_section',
     );
 
-    $sections['gallery_section'] = array(
-        'id' => 'gallery_section',
-        'label' => __('Video Section', 'one-page'),
-        'callback' => 'onepage_video_section',
+    $sections['course_section'] = array(
+        'id' => 'course_section',
+        'label' => __('Course Section', 'one-page'),
+        'callback' => 'onepage_course_section',
     );
 
-    $sections['portfolio_section'] = array(
-        'id' => 'portfolio_section',
-        'label' => __('Portfolio Section', 'one-page'),
-        'callback' => 'onepage_portfolio_section',
-    );
-
-    $sections['testimonial_section'] = array(
-        'id' => 'testimonial_section',
-        'label' => __('Testimonials Section', 'one-page'),
-        'callback' => 'onepage_testimonial_section',
-    );
-
-    $sections['price_section'] = array(
-        'id' => 'price_section',
-        'label' => __('Price Section', 'one-page'),
-        'callback' => 'onepage_price_section',
-    );
-
-    $sections['team_section'] = array(
-        'id' => 'team_section',
-        'label' => __('Team Section', 'one-page'),
-        'callback' => 'onepage_team_section',
+    $sections['references_section'] = array(
+        'id' => 'references_section',
+        'label' => __('References Section', 'one-page'),
+        'callback' => 'onepage_references_section',
     );
 
     $sections['contact_section'] = array(
         'id' => 'contact_section',
-        'label' => __('Contact Us Section', 'one-page'),
+        'label' => __('Contact Section', 'one-page'),
         'callback' => 'onepage_contact_section',
     );
-
 
     return apply_filters('onepage_sections', $sections);
 }
@@ -398,34 +391,30 @@ function onepage_get_section($options) {
     }
 }
 
-function onepage_service_section() {
-    get_template_part('templates/homepage', 'services');
+function onepage_philosophy_section() {
+    get_template_part('templates/homepage', 'philosophy');
+}
+
+function onepage_methodology_section() {
+    get_template_part('templates/homepage', 'methodology');
+}
+
+function onepage_space_section() {
+    get_template_part('templates/homepage', 'space');
 }
 
 function onepage_blog_section() {
-    get_template_part('templates/homepage', 'blogs');
+    get_template_part('templates/homepage', 'blog');
 }
 
-function onepage_video_section() {
-    get_template_part('templates/homepage', 'videos');
+function onepage_course_section() {
+    get_template_part('templates/homepage', 'course');
 }
 
-function onepage_testimonial_section() {
-    get_template_part('templates/homepage', 'testimonials');
-}
-
-function onepage_portfolio_section() {
-    get_template_part('templates/homepage', 'hexGallery');
-}
-
-function onepage_price_section() {
-    get_template_part('templates/homepage', 'pricing');
-}
-
-function onepage_team_section() {
-    get_template_part('templates/homepage', 'teams');
+function onepage_references_section() {
+    get_template_part('templates/homepage', 'references');
 }
 
 function onepage_contact_section() {
-    get_template_part('templates/homepage', 'contactUs');
+    get_template_part('templates/homepage', 'contact');
 }

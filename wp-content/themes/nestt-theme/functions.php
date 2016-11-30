@@ -280,19 +280,22 @@ function onepage_front_nav_fallback() {
             <a href="#page-top"><?php _e('Home', 'one-page'); ?></a>
         </li>
         <li class="page-scroll">
-            <a href="#services"><?php _e('Services', 'one-page'); ?></a>
+            <a href="#philosophy"><?php _e('Philosophy', 'one-page'); ?></a>
+        </li>
+        <li class="page-scroll">
+            <a href="#methodology"><?php _e('Methodology', 'one-page'); ?></a>
+        </li>
+        <li class="page-scroll">
+            <a href="#space"><?php _e('Space', 'one-page'); ?></a>
         </li>
         <li class="page-scroll">
             <a href="#blog"><?php _e('Blog', 'one-page'); ?></a>
         </li>
         <li class="page-scroll">
-            <a href="#gallery"><?php _e('Gallery', 'one-page'); ?></a>
+            <a href="#course"><?php _e('Course', 'one-page'); ?></a>
         </li>
         <li class="page-scroll">
-            <a href="#pricing"><?php _e('pricing', 'one-page'); ?></a>
-        </li>
-        <li class="page-scroll">
-            <a href="#team"><?php _e('Team', 'one-page'); ?></a>
+            <a href="#references"><?php _e('References', 'one-page'); ?></a>
         </li>
         <li class="page-scroll">
             <a href="#contact"><?php _e('Contact', 'one-page'); ?></a>
