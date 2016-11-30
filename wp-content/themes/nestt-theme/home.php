@@ -6,9 +6,9 @@
  */
 get_header();
 ?>
-<!--Including sliders section -->
-<?php echo get_template_part( 'templates/homepage', 'sliders' ); ?>
-<!--/Including sliders section -->
+<!--Including index section -->
+<?php echo get_template_part( 'templates/homepage', 'index' ); ?>
+<!--/Including index section -->
 <?php
 onepage_section_show();
 ?>

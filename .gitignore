@@ -5,3 +5,4 @@ wp-content/plugins/*
 /index.php
 wp-content/uploads
 mysql_data
+.idea
