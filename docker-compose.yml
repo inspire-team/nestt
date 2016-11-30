@@ -1,0 +1,21 @@
+nestt-database:
+    image: mysql:5.5
+    ports:
+        - 3306:3306
+    environment:
+        - MYSQL_ROOT_PASSWORD=nestt
+        - MYSQL_DATABASE=wordpress
+    volumes:
+        - ./mysql_data:/var/lib/mysql
+
+web:
+    build: .
+    links:
+        - nestt-database
+    volumes:
+        - ./:/www/sites/nestt.lan
+        - ./system/apache/.htaccess:/www/sites/nestt.lan/.htaccess
+        - ./system/apache/root-index.php:/www/sites/nestt.lan/index.php
+    ports:
+        - 80:80
+        - 443:443
