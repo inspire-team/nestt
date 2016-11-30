@@ -1517,7 +1517,7 @@ ul.bxslider {
 /**
  * Contact section style
  */
-.contact_div {
+.contact_div { 
     background: none !important;
     padding: 55px 0 55px 0;
 }
