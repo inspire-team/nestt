@@ -51,7 +51,7 @@
                 <div class="col-lg-12 text-center contact_section">
                     <h2 class="main_head animated fade_in_up">CONTACT</h2>
                     <div class="contact_person text-left" id="myoutercontainer">
-                        <div class="contact_pic inline-block"><img src="<?= get_template_directory_uri();?>/assets/images/michael_pic.png" alt="Michael Rosemann"></div>
+                        <div class="contact_pic inline-block"><img src="<?= get_bloginfo('template_url') . '/assets/images/michael_pic.png'; ?>" alt="Michael Rosemann"></div>
                         <div class="contact_info inline-block middle-div" id="myinnercontainer">
                             <div class="">Prof Michael Rosemann</div>
                             <div class="">Executive Director Corporate Engagement</div>
