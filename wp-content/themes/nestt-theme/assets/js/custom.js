@@ -1,5 +1,5 @@
 /*!
- * One Page - WordPress Theme (http://startbootstrap.com)
+ * NESTT Theme - WordPress Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -56,11 +56,11 @@ jQuery(document).ready(function ($) {
         }
     });
 
-// Mean-menu 
+// Mean-menu
     $('#menu .nav-menu').meanmenu({
         meanScreenWidth: "991"
     });
-// Mean-menu 
+// Mean-menu
     $('#menu_sub .nav-menu').meanmenu({
         meanScreenWidth: "991"
     });
@@ -282,4 +282,3 @@ jQuery(window).load(function () {
         }
     }
 });
-

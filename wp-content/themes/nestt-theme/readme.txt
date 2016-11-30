@@ -1,10 +1,10 @@
 == Theme: BusinessGrow ==
 
-* By One Page, http://www.inkthemes.com/
+* By NESTT Theme, http://www.qut.edu.au/
 
 == Theme License & Copyright ==
-One Page is distributed under the terms of the GNU GPL
-One Page- Copyright 2013 One Page, inkthemes.com
+NESTT Theme is distributed under the terms of the GNU GPL
+NESTT Theme- Copyright 2016 NESTT Theme, http://www.qut.edu.au/
 custom.js, mobile-menu.js is distributed under the terms of the GNU GPL
 
 == modernizr.custom.08171.js License & Copyright ==
@@ -31,11 +31,11 @@ The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION 
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 License Link: http://github.com/joeldbirch/superfish/blob/master/MIT-LICENSE.txt
 

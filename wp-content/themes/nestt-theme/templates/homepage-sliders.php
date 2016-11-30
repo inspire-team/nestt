@@ -16,7 +16,7 @@ $slider_default = array();
 $slider_default['slider1'] = array(
 	'onepage_slider_trans' => 'horizontal',
 	'onepage_slider_image' => ONEPAGE_DIR_URI . "assets/images/1.jpg",
-	'onepage_slider_heading' => __( 'Best One Page WordPress Theme', 'one-page' ),
+	'onepage_slider_heading' => __( 'NESTT Theme WordPress Theme', 'one-page' ),
 	'onepage_slider_subheading' => __( 'Give Your Business Website A New Shape.', 'one-page' ),
 	'onepage_slider_button_link' => '#',
 	'onepage_slider_button_text' => __( 'Create Your Website!', 'one-page' ),
@@ -26,7 +26,7 @@ $slider_default['slider2'] = array(
 	'onepage_slider_trans' => 'horizontal',
 	'onepage_slider_image' => ONEPAGE_DIR_URI . "assets/images/2.jpg",
 	'onepage_slider_heading' => __( 'Theme You Never Experienced Before', 'one-page' ),
-	'onepage_slider_subheading' => __( 'One page has all essential features for your website.', 'one-page' ),
+	'onepage_slider_subheading' => __( 'NESTT Theme has all essential features for your website.', 'one-page' ),
 	'onepage_slider_button_link' => '#',
 	'onepage_slider_button_text' => __( 'Create Your Website!', 'one-page' ),
 	'onepage_slider_overlay' => 'rgba(29, 105, 165, 0.82)',
@@ -123,4 +123,3 @@ if ( !$slider_flag ) {
     </div>
 </section>
 <!-- /slider section-->
-

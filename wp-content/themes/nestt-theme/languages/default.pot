@@ -2679,7 +2679,7 @@ msgid "Fully Customizable"
 msgstr ""
 
 #: templates/homepage-sliders.php:19
-msgid "Best One Page WordPress Theme"
+msgid "Best NESTT Theme WordPress Theme"
 msgstr ""
 
 #: templates/homepage-sliders.php:20
@@ -2695,7 +2695,7 @@ msgid "Theme You Never Experienced Before"
 msgstr ""
 
 #: templates/homepage-sliders.php:29
-msgid "One page has all essential features for your website."
+msgid "NESTT Theme has all essential features for your website."
 msgstr ""
 
 #: templates/homepage-teams.php:19 templates/homepage-teams.php:45
