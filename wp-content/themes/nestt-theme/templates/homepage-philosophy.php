@@ -3,12 +3,12 @@
         <h1 class="page-counter">01</h1>
         <div class="container">
             <div class="inner-content">
-                <h2 class="heading">The<br> <span>Philosophy</span></h2>
-                <p>The NES<i>TT</i> is a rapid, people and outcome centred approach to
-                    process redesign. NES<i>TT</i> is focused on creating exciting future
-                    processes that make today’s processes obsolete.
-                </p>
-                <p class="t-blue">This is achieved by an opportunity-driven mindset and ideation techniques that help participants to explore what is possible instead of just fixing what is broken. However, the NES<i>TT</i> is also dedicated to the often urgent and pragmatic demands of resolving immediate problems along a process (e.g., waste, variation). As such, the NES<i>TT</i> is an ambidextrous approach, i.e. it is dedicated to exploiting and improving current processes as much as to exploring entire new process design opportunities. The actual methodology puts the participating stakeholders at its core and acknowledges that the active, stimulating engagement of all involved parties is one of the most essential success factors.</p>
+                <?php $data = get_page_by_path('philosophy'); ?>
+                <h2 class="heading">The<br> <span><?= $data->post_title; ?></span></h2>
+
+                <?php
+                    echo apply_filters('the_content', $data->post_content);
+                ?>
             </div>
         </div>
     </div>

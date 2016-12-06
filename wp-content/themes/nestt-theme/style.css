@@ -332,7 +332,7 @@ div#crumbs{
     font-size: 640px;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: -40px;
+    letter-spacing: -25px;
     color: rgba(0, 0, 0, 0.3);
 }
 .inner-section {
@@ -344,13 +344,41 @@ div#crumbs{
     width: 63%;
     float: right;
 }
-.inner-content p {
-    padding-right: 50px;
-    padding-top: 12px;
-    color: #FFFFFF;
+
+.inner-content p,
+.inner-content ul li {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2em;
+    color: #5287b7;
+}
+
+.inner-content ul li {
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.inner-content ul li > strong {
+    color: #FFFFFF;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: Helvetica, Arial, Tahoma;
+}
+
+.inner-content ul li > span {
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    color: #FFFFFF;
+}
+
+.inner-content p {
+    padding-right: 50px;
+    padding-top: 12px;
+}
+
+.inner-content p > span {
+    font-size: inherit;
 }
 
 .inner-content i {
@@ -379,6 +407,27 @@ h2.heading {
 }
 
 /**
+ * Page-specific Style
+ */
+.philosophy_div .inner-content h2 + p {
+    color: #FFFFFF;
+}
+.methodology_div .page-counter {
+    top: 18%;
+}
+.space_div .page-counter  {
+    top: 21%;
+}
+.space_div .inner-content p > span {
+    color: #FFFFFF;
+}
+.space_div .inner-content img {
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+
+/**
  * Sections Common Style
  */
 section .main_head {
@@ -395,7 +444,7 @@ section .main_head {
     font-size: 14px;
     margin-bottom: 0;
 }
-.header .logo a img{
+.header .logo a img {
     margin-top: 11px;
     margin-bottom: 11px;
 }
@@ -977,7 +1026,7 @@ section .main_head {
  * Home Page Blog Style
  */
 .blog_div h2 {
-    color: #fff;
+    color: #6d6f71 !important;
 }
 .blog_div .blog_sep {
     width: 23%;
@@ -985,9 +1034,7 @@ section .main_head {
     background: #3be2c0;
     border: none;
 }
-.blog_div p {
-    color: #fff;
-}
+
 .blog_div {
     background: none !important;
 }
@@ -1517,7 +1564,7 @@ ul.bxslider {
 /**
  * Contact section style
  */
-.contact_div { 
+.contact_div {
     background: none !important;
     padding: 55px 0 55px 0;
 }
