@@ -29,7 +29,8 @@
                                 <div class="text-left contact_email">
                                     <p>Email: nestt@qut.edu.au</p>
                                 </div>
-                                <div class="">
+                                <div class="contact_subscribe">
+                                    <p class="contact_subscribe_header">SUBSCRIBE<span class="contact_join">JOIN OUR MAILING LIST</span></p>
                                     <?php echo do_shortcode("[ninja_form id=2]");?>
                                 </div>
                             </div>
