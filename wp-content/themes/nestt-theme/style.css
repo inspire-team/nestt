@@ -2999,3 +2999,121 @@ a img.aligncenter {
 #gallery-1 img {
     height: auto;
 }
+
+/*CSS for CONTACT*/
+.contact_section {
+    max-width: 625px;
+    height: 500px;
+    font-family: "Helvetica";
+    font-size: 20px !important;
+    padding-top: 30px;
+}
+
+.contact_section ul {
+    display: table;
+    padding: 0;
+}
+
+.contact_section ul > li {
+    display: table-row;
+    text-align: left;
+}
+
+.contact_data ul > li::before {
+    content: "";
+    display: table-cell; /* aha! */
+    text-align: right;
+}
+
+.long_dash {
+    position: absolute;
+}
+
+.contact_conditions {
+    display: inline-block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#contact_outer_container { position:relative }
+#contact_inner_container { position:absolute; top:74%; height:auto; margin-top:-5em }
+
+.contact_info {
+    margin-left: 27px;
+}
+
+.contact_data, .contact_email {
+    margin-top: 25px;
+}
+
+.contact_name {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.contact_position, .contact_location, .contact_data ul li div, .contact_data_header, .contact_conditions {
+    font-size: 20px !important;
+    color: #5287B7 !important;
+    width: 580px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.contact_data_header {
+    margin-bottom: 15px !important;
+}
+
+.contact_conditions {
+    padding-left: 45px !important;
+}
+
+.contact_subscribe {
+    background-color: #010101;
+    width: 675px;
+    padding: 30px 50px 50px 50px;
+    margin-top: 65px !important;
+}
+
+.contact_subscribe_header {
+    font-family: Helvetica;
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+
+.contact_join {
+    font-family: Helvetica;
+    font-size: 10px !important;
+    font-weight: bold;
+    color: #6D6F71 !important;
+    margin-left: 33px !important;
+}
+
+.nf-field-label label {
+    color: #6D6F71 !important;
+    font-size: 11px !important;
+    text-transform: uppercase;
+}
+
+.nf-field-element input {
+    height: 45px !important;
+    background-color: #6D6F71;
+    border-style: none;
+    color: #FFFFFF;
+}
+
+.submit-wrap .nf-field-element input{
+    width: 100% !important;
+    background-color: #5287B7;
+    margin-top: 10px !important;
+}
+
+.nf-field-container {
+    margin-bottom: 15px !important;
+}
+
+.nf-form-title, .nf-form-fields-required, .ninja-forms-req-symbol, .nf-error-msg, .nf-error-required-error{
+    display: none;
+}
