@@ -326,9 +326,12 @@ div#crumbs{
 
 .page-counter {
     position: absolute;
+    /*position: fixed;*/
     left: -10%;
-    top: 42%;
-    line-height: 0;
+    /*top: 42%;*/
+    /*top: 48%;*/
+    top: 0;
+    line-height: 0.98em;
     font-size: 640px;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -361,7 +364,7 @@ div#crumbs{
 .inner-content ul li > strong {
     color: #FFFFFF;
     font-size: inherit;
-    font-weight: 400;
+    font-weight: 600;
     font-family: Helvetica, Arial, Tahoma;
 }
 
@@ -412,18 +415,70 @@ h2.heading {
 .philosophy_div .inner-content h2 + p {
     color: #FFFFFF;
 }
-.methodology_div .page-counter {
-    top: 18%;
-}
-.space_div .page-counter  {
-    top: 21%;
-}
-.space_div .inner-content p > span {
+.space_div .inner-content p > span,
+.blog_div .inner-content p > span {
     color: #FFFFFF;
 }
 .space_div .inner-content img {
     margin-bottom: 60px;
     margin-top: 30px;
+}
+.blog_div .inner-content .heading + div {
+    padding-top: 55px;
+}
+.blog_div .inner-content .blog-list {
+    margin-top: 40px;
+}
+.blog_div .inner-content .blog-list ul {
+    padding: 0;
+}
+.blog_div .inner-content .blog-list ul > li {
+    background-color: #2c343e;
+    padding: 15px 50px;
+    margin-bottom: 20px;
+}
+.blog_div .inner-content .blog-list ul > li h4 {
+    font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    color: #e6e7e8;
+}
+.blog_div .inner-content .blog-list ul > li p,
+.blog_div .inner-content .blog-list ul > li a {
+    font-size: 12px;
+    color: #bcbec0;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+.blog_div .inner-content .blog-list h3,
+.course_div .inner-content strong {
+    color: #FFFFFF;
+    font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.course_div .inner-content a {
+    color: #a7a9ac;
+    font-size: inherit;
+}
+.course_div .inner-content strong {
+    font-size: 20px;
+}
+.course_div .inner-content em {
+    color: #5d5d5d;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.course_div .inner-content p:last-child {
+    font-size: 15px;
+    color: #5d5d5d;
+    font-weight: 500;
+}
+.contact_div .inner-content .heading {
+    margin-top: 0;
+    margin-bottom: 55px;
+    line-height: 0;
 }
 
 
@@ -3026,6 +3081,7 @@ a img.aligncenter {
 }
 
 .long_dash {
+    color: #5287b7 !important;
     position: absolute;
 }
 
@@ -3081,6 +3137,7 @@ a img.aligncenter {
     font-family: Helvetica;
     font-weight: bold !important;
     font-size: 24px !important;
+    color: #cdccce !important;
 }
 
 .contact_join {

@@ -144,6 +144,17 @@ jQuery(document).ready(function ($) {
         autoControls: false
     });
 
+    // Show blog full content
+    $('.blog-list li p a').on('click', function () {
+        // get content
+        var content = $(this).parents('li').find('.hidden').html();
+
+        // replace content of blog list
+        $('.blog-list').html(content);
+
+        return false;
+    });
+
 });
 
 function On_Resize() {

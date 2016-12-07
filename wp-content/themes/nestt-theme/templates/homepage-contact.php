@@ -1,7 +1,7 @@
 
-<!--course section-->
-<section id="references" class="section_7 inner-section">
-    <div class="references_div">
+<!--contact section-->
+<section id="contact" class="section_8 inner-section">
+    <div class="contact_div">
         <h1 class="page-counter">07</h1>
         <div class="container">
             <div class="inner-content">
@@ -31,7 +31,7 @@
                                 </div>
                                 <div class="contact_subscribe">
                                     <p class="contact_subscribe_header">SUBSCRIBE<span class="contact_join">JOIN OUR MAILING LIST</span></p>
-                                    <?php echo do_shortcode("[ninja_form id=2]");?>
+                                    <?php echo do_shortcode("[ninja_form id=1]");?>
                                 </div>
                             </div>
                         </div>
