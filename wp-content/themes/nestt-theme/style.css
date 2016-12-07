@@ -3157,3 +3157,103 @@ a img.aligncenter {
 .nf-form-title, .nf-form-fields-required, .ninja-forms-req-symbol, .nf-error-msg, .nf-error-required-error{
     display: none;
 }
+
+
+/**Media Queries[start]**/
+@media (max-width:600px)  {
+    .page-counter {
+        display: none;
+    }
+
+    .section_1 {
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .section_1 span, .section_1 span i {
+        font-size: 65px;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 4.5em;
+    }
+
+    h2 {
+        font-size: 3em;
+        text-align: left;
+    }
+
+    p {
+        padding-right: 0 !important;
+    }
+
+    div {
+        padding-top: 20px !important;
+    }
+
+    .section_1 img {
+        width: 65%;
+    }
+
+    .bottom-content img {
+        width: auto;
+    }
+
+    .bottom-content p {
+        text-align: left;
+    }
+
+    .inner-content {
+        width: 100%;
+        text-align: left;
+    }
+
+    .inner-content a {
+        font-size: .8em !important;
+    }
+
+    .inner-section {
+        padding-top: 20px !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+        text-align: left;
+    }
+
+    .contact_div {
+        padding: 0 !important;
+    }
+
+    .contact_subscribe {
+        width: 100%;
+    }
+
+    .contact_join {
+        margin-left: 0px !important;
+    }
+
+    .contact_section p:nth-of-type(2) {
+        display: block;
+        padding-top: 212px;
+    }
+
+    .contact_section p:nth-of-type(4) {
+        padding-bottom: 50px;
+    }
+
+    .contact_subscribe {
+        padding: 30px 15px 15px 15px;
+    }
+
+    .heading {
+        margin-bottom: 0px !important;
+    }
+
+    .nf-after-field, .nf-after-form {
+        display: none !important;
+    }
+
+    .nf-field-element, .field-wrap, .nf-field, .nf-before-field, .nf-form-content, .label-above, .nf-before-form-content, .nf-form-layout, .nf-before-form, .nf-debug-msg, .nf-response-msg, .ninja-forms-form-wrap, .nf-form-cont, .nf-form-layout div {
+        padding-top: 0 !important;
+    }
+}
