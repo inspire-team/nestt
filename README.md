@@ -1,8 +1,8 @@
-# nestt
+# NESTT
 
 ## Installation 
 * [Install Docker](http://www.docker.com) on your machine.
-* run ```docker-compose up -d``` OR ```vagrant up --no-parallel``` to start the web server and the database server
+* run ```docker-compose up -d``` to start the web server and the database server
 * add ```127.0.0.1 nestt.lan nestt-database``` to your hosts file
 * run ```composer install``` to install wordpress and dependencies
 * [visit](http://www.nestt.lan) to see the site.  The first run will require you to configure the database with the details below.
@@ -27,7 +27,7 @@ There are a few settings that are required to use the blog in development
 
 
 ## Helpful URL's
-* [Vagrant Wordpress Site](http://nestt.lan) is where you will find the homepage.
+* [Wordpress Site](http://nestt.lan) is where you will find the homepage.
 * [Wordpress Admin](http://nestt.lan/wp/wp-admin) is the wordpress admin site.
 * https://roots.io/using-composer-with-wordpress/ for more information on why the project is structured the way it is.
 * [WPackagist](http://wpackagist.org/) wordpress plugins that have a composer.json and can be added with composer.
