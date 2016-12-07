@@ -9,7 +9,8 @@
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.*",
     "wpackagist-plugin/akismet": "3.2.*",
-    "wpackagist-plugin/ninja-forms": "*"
+    "wpackagist-plugin/ninja-forms": "*",
+    "wpackagist-plugin/wordpress-importer": "0.6.*"
   },
   "require-dev" : {
     "wpackagist-plugin/theme-check" : "*"
