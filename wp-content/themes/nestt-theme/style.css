@@ -36,7 +36,7 @@ time, mark, audio, video {
     background:transparent;
 }
 body{
-	background:#231f20;
+    background:#231f20;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
@@ -458,6 +458,18 @@ h2.heading {
     font-family: "Helvetica Neue", Verdana, Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+
+.blog_div .inner-content .blog-list h3 {
+    float: left;
+}
+
+.blog_div .inner-content .blog-list h3 + a {
+    float: right;
+    line-height: 64px;
+    margin-right: 50px;
+    color: #5287b7;
+}
+
 .course_div .inner-content a {
     color: #a7a9ac;
     font-size: inherit;
@@ -544,7 +556,7 @@ section .main_head {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 27px 16px 22px 16px;
+    padding: 27px 15px 22px 15px;
 }
 .navbar-default .navbar-nav>li>a:focus {
     background-color: #231f20 !important;
@@ -3057,8 +3069,8 @@ a img.aligncenter {
 
 /**New CSS for dynamic - CONTACT [start]**/
 .contact_section {
-    max-width: 625px;
-    height: 500px;
+    /*max-width: 625px;*/
+    /*height: 500px;*/
     font-family: "Helvetica";
     font-size: 20px !important;
     padding-top: 30px;
@@ -3100,7 +3112,7 @@ a img.aligncenter {
 }
 
 .contact_section p:nth-of-type(4) {
-    padding-bottom: 80px;
+    padding-bottom: 30px;
 }
 
 .contact_section p:nth-of-type(5) {
@@ -3111,9 +3123,9 @@ a img.aligncenter {
 
 .contact_subscribe {
     background-color: #010101;
-    width: 675px;
     padding: 30px 50px 50px 50px;
     margin-top: 65px !important;
+    margin-bottom: 50px;
 }
 
 .contact_subscribe_header {
@@ -3148,6 +3160,19 @@ a img.aligncenter {
     width: 100% !important;
     background-color: #5287B7;
     margin-top: 10px !important;
+    text-transform: uppercase;
+}
+
+.field-wrap input {
+    padding: 10px;
+}
+
+.nf-response-msg {
+    margin: 15px 0;
+}
+
+.nf-response-msg p {
+    padding: 5px 0 !important;
 }
 
 .nf-field-container {
@@ -3158,11 +3183,81 @@ a img.aligncenter {
     display: none;
 }
 
+/*==== MEDIA QUERIES ====*/
+@media only screen and (min-width: 1201px) and (max-width: 1299px) {
+    .page-counter { font-size: 560px; }
+}
 
-/**Media Queries[start]**/
-@media (max-width:600px)  {
-    .page-counter {
-        display: none;
+/* iPad-specific responsive css */
+@media only screen and (max-width: 1024px) {
+    /*--- Additional Responsive CSS ---*/
+    .page-counter { font-size: 460px; }
+}
+
+@media only screen and (max-width:991px) {
+    /*--- Additional Responsive CSS ---*/
+    .page-counter { display: none; }
+    .section_1 .col-lg-4 { text-align: center; }
+    .inner-content { width: 100%; }
+    .inner-content p { padding-right: 0; }
+    .section_1 { padding: 100px 0 0; }
+    .section_1 h1 { text-align: center; }
+    .section_1 span, .section_1 span i { font-size: 100px; }
+    .section_1 .bottom-content p { width: 85%; }
+    .section_2 { margin-top: 50px; }
+    .inner-section { padding: 0 !important; }
+    h2.heading { text-align: left; }
+    .space_div .inner-content img { margin-bottom: 0; }
+    .blog_div .inner-content .heading + div {
+        padding-top: 0 ;
+        text-align: left;
+    }
+    .contact_section {
+        padding-top: 0;
+    }
+    .contact_section p:first-child {
+        display: block;
+        text-align: center;
+    }
+
+    .contact_section p:first-child img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .contact_section p:nth-of-type(2) {
+        padding-top: 10px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    /*-- Additional Responsive CSS --*/
+    .container { padding-left: 30px; padding-right: 30px; }
+    h1 { font-size: 100px; }
+    ul { padding: 0; }
+    .inner-content p,
+    .inner-content ul li {
+        font-size: 18px;
+    }
+    .alignnone {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    /*-- Additional Responsive CSS --*/
+    h1 { font-size: 75px; }
+    .section_1 .bottom-content img { float: left; }
+    .section_1 .bottom-content p { width: 75%; }
+    .section_1 span, .section_1 span i {
+        font-size: 75px;
+    }
+
+    .inner-content {
+        width: 100%;
+        text-align: left;
     }
 
     .section_1 {
@@ -3170,42 +3265,13 @@ a img.aligncenter {
         text-align: center;
     }
 
-    .section_1 span, .section_1 span i {
-        font-size: 65px;
-        font-weight: bold;
-    }
-
-    h1 {
-        font-size: 4.5em;
-    }
-
-    h2 {
-        font-size: 3em;
-        text-align: left;
-    }
-
-    p {
-        padding-right: 0 !important;
-    }
-
-    div {
-        padding-top: 20px !important;
-    }
-
-    .section_1 img {
-        width: 65%;
-    }
-
-    .bottom-content img {
-        width: auto;
-    }
-
     .bottom-content p {
         text-align: left;
     }
 
-    .inner-content {
-        width: 100%;
+
+    h2 {
+        font-size: 3em;
         text-align: left;
     }
 
@@ -3216,9 +3282,18 @@ a img.aligncenter {
     .inner-section {
         padding-top: 20px !important;
         padding-bottom: 0 !important;
-        margin-bottom: 0 !important;
         text-align: left;
     }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 { font-size: 60px; }
+    .section_1 h1 { line-height: 0.9em; }
+    .section_1 span, .section_1 span i { font-size: 60px; }
+}
+
+/**Media Queries[start]**/
+@media (max-width:600px)  {
 
     .contact_div {
         padding: 0 !important;
@@ -3243,10 +3318,6 @@ a img.aligncenter {
 
     .contact_subscribe {
         padding: 30px 15px 15px 15px;
-    }
-
-    .heading {
-        margin-bottom: 0px !important;
     }
 
     .nf-after-field, .nf-after-form {

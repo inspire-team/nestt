@@ -144,14 +144,24 @@ jQuery(document).ready(function ($) {
         autoControls: false
     });
 
+    var blog_list = $('.blog-list').html();
+
     // Show blog full content
-    $('.blog-list li p a').on('click', function () {
+    $(document).on('click', '.blog-list li p a', function () {
         // get content
         var content = $(this).parents('li').find('.hidden').html();
 
         // replace content of blog list
         $('.blog-list').html(content);
 
+        return false;
+    });
+
+    // Go back to blog list
+    $(document).on('click', ".blog-list h3 + a", function (event) {
+        event.preventDefault();
+
+        $('.blog-list').html(blog_list);
         return false;
     });
 

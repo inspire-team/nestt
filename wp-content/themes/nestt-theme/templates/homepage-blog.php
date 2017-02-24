@@ -4,15 +4,16 @@
         <h1 class="page-counter">04</h1>
         <div class="container">
             <div class="inner-content">
-                <?php $data = get_page_by_path('blog'); ?>
+                <?php $data = get_page_by_path( 'blog' ); ?>
+
                 <div class="row">
-                    <h2 class="heading col-lg-4">The<br> <span><?= $data->post_title; ?></span></h2>
+                    <h2 class="heading col-lg-4">The <span><?= $data->post_title; ?></span></h2>
                     <div class="col-lg-8">
-                        <?php echo apply_filters('the_content', $data->post_content); ?>
+                        <?php echo apply_filters( 'the_content', $data->post_content ); ?>
                     </div>
                 </div>
                 <div class="blog-list">
-                    <ul>
+                    <ul class="main-list">
                         <?php
                             $args = array( 'category_name' => 'blog' );
                             $posts = get_posts( $args );
@@ -45,7 +46,10 @@
 
                             <!-- hide the full content here -->
                             <div class="hidden">
-                                <h3><?php echo $cnt; ?>. <?php the_title(); ?></h3>
+                                <div class="clearfix">
+                                    <h3><?php echo $cnt; ?>. <?php the_title(); ?></h3>
+                                    <a href="#">Go back</a>
+                                </div>
                                 <?php the_content(); ?>
                             </div>
                         </li>

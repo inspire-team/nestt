@@ -27,7 +27,7 @@
                 <nav class="navbar navbar-default main-menu">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-lg-4 col-md-2">
                                 <div class="logo">
                                     <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">                                <?php
 										$logo_text = onepage_get_option( 'onepage_display_header_text', false );
@@ -47,7 +47,7 @@
                                 </div>
                             </div>
                             <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="col-md-8">
+                            <div class="col-lg-8 col-md-10">
                                 <div class="menu_wrapper">
                                     <div id="MainNav">
                                         <div id="menu" class="menu-menu-1-container">

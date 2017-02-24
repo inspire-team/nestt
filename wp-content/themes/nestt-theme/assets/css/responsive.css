@@ -22,6 +22,8 @@
         width: 90%;
         margin-top: 12%;
     }
+
+    .page-counter { font-size: 560px; }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1200px) {
     .sl-slider-wrapper {
@@ -414,7 +416,32 @@ between 960px and 1140px
         border: 0;
     }
 }
+
+/* iPad-specific responsive css */
+@media only screen and (max-width: 1024px) {
+    /*--- Additional Responsive CSS ---*/
+    .page-counter { font-size: 460px; }
+}
+
 @media only screen and (max-width:991px) {
+    /*--- Additional Responsive CSS ---*/
+    .page-counter { display: none; }
+    .section_1 .col-lg-4 { text-align: center; }
+    .inner-content { width: 100%; }
+    .inner-content p { padding-right: 0; }
+    .section_1 { padding: 100px 0 0; }
+    .section_1 h1 { text-align: center; }
+    .section_1 span, .section_1 span i { font-size: 100px; }
+    .section_1 .bottom-content p { width: 85%; }
+    .section_2 { margin-top: 50px; }
+    .inner-section { padding: 0 !important; }
+    h2.heading { text-align: left; }
+    .space_div .inner-content img { margin-bottom: 0; }
+    .blog_div .inner-content .heading + div {
+        padding-top: 0 ;
+        text-align: left;
+    }
+
     /*Navigation and header*/
     .header{
         position: static;
@@ -572,6 +599,19 @@ between 960px and 1140px
     }
     .contact_div .contact_map {
         padding-left: 0;
+    }
+
+    /*-- Additional Responsive CSS --*/
+    .container { padding-left: 30px; padding-right: 30px; }
+    h1 { font-size: 100px; }
+    ul { padding: 0; }
+    .inner-content p,
+    .inner-content ul li {
+        font-size: 18px;
+    }
+    .alignnone {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 }
 
@@ -757,6 +797,14 @@ between 480px and 767px
     }
     .calender_wrapper {
         padding: 0px 13px 20px 16px;
+    }
+
+    /*-- Additional Responsive CSS --*/
+    h1 { font-size: 75px; }
+    .section_1 .bottom-content img { float: left; }
+    .section_1 .bottom-content p { width: 80%; }
+    .section_1 span, .section_1 span i {
+        font-size: 75px;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
@@ -1087,6 +1135,10 @@ smaller than 480px
     .search_page_search .searchform input[type="text"] {
         width: 88%;
     }
+
+    h1 { font-size: 60px; }
+    .section_1 h1 { line-height: 0.9em; }
+    .section_1 span, .section_1 span i { font-size: 60px; }
 }
 
 /************************************************************************************
