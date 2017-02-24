@@ -3328,3 +3328,38 @@ a img.aligncenter {
         padding-top: 0 !important;
     }
 }
+
+
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 4em;
+        text-align: left;
+    }
+
+  .contact_subscribe {
+      width: 100%;
+  }
+
+  .page-counter {
+      margin-left: -120px;
+  }
+
+  .inner-section {
+      padding-top: 20px !important;
+      padding-bottom: 0 !important;
+      margin-bottom: 0 !important;
+      text-align: left;
+  }
+
+  .section_1 .container {
+    text-align: center;
+  }
+
+  .section_1 .heading {
+      text-align: center;
+  }
+
+  .bottom-content p {
+      text-align: left;
+  }
+}
